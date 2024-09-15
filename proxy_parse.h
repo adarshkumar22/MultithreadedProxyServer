@@ -30,8 +30,9 @@
    The buf and buflen fields are used internally to maintain the parsed request
    line.
  */
+
 struct ParsedRequest {
-     char *method; 
+     char *method;  
      char *protocol; 
      char *host; 
      char *port; 
